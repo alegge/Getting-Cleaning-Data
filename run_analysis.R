@@ -60,4 +60,4 @@ melted = melt(combined, id = id_labels, measure.vars = labels)
 
 tidy = dcast(melted, Subject_ID + activity_label ~ variable, mean)
 
-write.table(tidy, "tidy.csv", row.names = FALSE)
+write.table(tidy, "tidy.txt", row.names = FALSE)
