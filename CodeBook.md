@@ -1,18 +1,18 @@
 # Code Book
-This code book describes the data used in this project, to see the original description of the dataset, go to https://github.com/alegge/Getting-Cleaning-Data.
+This code book describes the data used in this project, to see the original description of the dataset, go to http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
 ## General Information
 30 volunteers performed 6 different activities while wearing a smartphone that captured data about their movements. 
 
 ## Explanation of files used:
-```features.txt```: Name of 561 features
-```activity_labels.txt```: Name and ID for each activity performed. 
-```X_train.txt```: 7352 observations of features for 21 volunteers. 
-```Y_train.txt```: 7352 integers stored in a vector, demoting the ID of activity related. 
-```subject_train.txt```: 7352 integers stored in a vector, denoting the ID of the voluneteer related to the observation. 
-```X_test.txt```: 2947 observations of features for 9 volunteers. 
-```Y_test.txt```: 2947 integers stored in a vector, demoting the ID of activity related. 
-```subject_test.txt```: 2947 integers stored in a vector, denoting the ID of the voluneteer related to the observation. 
+* ```features.txt```: Name of 561 features
+* ```activity_labels.txt```: Name and ID for each activity performed. 
+* ```X_train.txt```: 7352 observations of features for 21 volunteers. 
+* ```Y_train.txt```: 7352 integers stored in a vector, demoting the ID of activity related. 
+* ```subject_train.txt```: 7352 integers stored in a vector, denoting the ID of the voluneteer related to the observation. 
+* ```X_test.txt```: 2947 observations of features for 9 volunteers. 
+* ```Y_test.txt```: 2947 integers stored in a vector, demoting the ID of activity related. 
+*```subject_test.txt```: 2947 integers stored in a vector, denoting the ID of the voluneteer related to the observation. 
 
 ## Transformation details:
 The data was transformed in 5 steps:
